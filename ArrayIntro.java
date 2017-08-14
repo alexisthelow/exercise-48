@@ -6,5 +6,12 @@ public class ArrayIntro {
 		for (String p : planets) {
 			System.out.println(p + "\t" + p.toUpperCase());
 		}
+		
+		String[] girlfriends = {"Brenda", "Bailie", "Jennifer", "Julianne", "Danielle", 
+								"Jasmine"};	
+								
+		for (String g : girlfriends) {
+			System.out.println("I dated a girl named " + g + ".");
+		}
 	}
 }
